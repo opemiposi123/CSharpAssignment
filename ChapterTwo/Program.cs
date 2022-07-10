@@ -6,9 +6,6 @@ namespace ChapterTwo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
-
          // Declare several variables by selecting for each one of them the most appropriate of the types sbyte, byte, short, ushort, int, uint, long and ulong //in order to assign them the following values:
             float value1 = 52.130F;
             sbyte value2 = -115;
@@ -131,13 +128,15 @@ namespace ChapterTwo
 
 
          // Declare two variables of type int. Assign to them values 5 and 10 respectively.Exchange(swap) thier value and print them
-         int a = 5;
-         int b = 10;
-         a = a + b;
-         b = a - b;
-         a = a - b;
-         Console.WriteLine("a, b");
-         Console.WriteLine("   \n  ");
+        int a = 5;
+        int b = 10;
+        int temp = a;
+
+        a = b;
+        b = temp;
+        Console.WriteLine(a);
+        Console.WriteLine(b);
+        Console.WriteLine("   \n  ");
 
         }
     }
