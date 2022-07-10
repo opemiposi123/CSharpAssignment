@@ -10,7 +10,7 @@ namespace ChapterTwo
             
 
          // Declare several variables by selecting for each one of them the most appropriate of the types sbyte, byte, short, ushort, int, uint, long and ulong //in order to assign them the following values:
-           /* float value1 = 52.130F;
+            float value1 = 52.130F;
             sbyte value2 = -115;
             byte value3 = 97;
             long value4 = -10000;
@@ -22,16 +22,16 @@ namespace ChapterTwo
             int value10 = -1000000;
             ushort value11 = 1990;
             ulong value12 = 123456789123456789;
-            Console.WriteLine("     ");*/
+            Console.WriteLine("     ");
 
             //2. Which of the following values can be assigned to variables of type float, double and decimal: 5, -5.01, 34.567839023; 12.345; 8923.1234857; 3456.091124875956542151256683467 ?
-           /* float value13 = 5;
+           float value13 = 5;
             float value14 = -5.01f;
             double value15 = 34.567839023;
             float value16 = 12.345f;
             double value17 = 8923.1234857;
             decimal value18 = 3456.091124875956542151256683467m;
-            Console.WriteLine("       ");*/
+            Console.WriteLine("       ");
 
             //3. Write a program, which compares correctly two real numbers with accuracy at least 0.000001.            
             bool result = false;
